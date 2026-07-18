@@ -1,0 +1,41 @@
+{
+  "name": "keel",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "AGPL-3.0-or-later",
+  "description": "Keel — an open-source, BYOK AI app generator. Describe an app, get a real project with a live sandboxed preview, chat-driven edits, and one-click deploy. Zero infrastructure cost to the operator: AI inference is bring-your-own-key, sandbox and backend run on free tiers with hard usage caps.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "node --test test/**/*.test.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.48.0",
+    "e2b": "^2.13.0",
+    "jszip": "^3.10.1",
+    "pg": "^8.21.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-resizable-panels": "^4.11.0",
+    "react-router-dom": "^6.30.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "tailwindcss": "^4.2.1",
+    "vite": "^7.3.1"
+  }
+}
