@@ -2,7 +2,7 @@
 
 Keel is an open-source AI app generator: describe an app in plain English, get a
 real Vite + React project back with a live sandboxed preview, chat-driven edits,
-and one-click deploy. It's in the same category as tools like Jasmine, Bolt, or
+and one-click deploy. It's in the same category as tools like, Bolt, or
 Lovable, built from scratch with three differences that matter:
 
 1. **Bring your own key.** Every AI generation/edit call runs on a model key the
