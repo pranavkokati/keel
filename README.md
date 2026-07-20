@@ -18,20 +18,6 @@ Lovable, built from scratch with three differences that matter:
    keep whichever result actually builds and boots cleanest, instead of
    committing to one model's first attempt.
 
-**Honest positioning, not marketing copy:** commercial competitors in this
-category (Bolt, Lovable, v0) are, as of this writing, meaningfully more
-capable than Keel on raw feature surface — native GitHub sync, custom
-domains, visual/no-code editing, and (for Bolt/Lovable) backend wizards that
-have had far more engineering time put into them than Keel's. Keel's actual
-differentiation is narrower and specific: it's the only one of the three
-that's AGPL/open-source and self-hostable, it's the only one with genuinely
-zero recurring cost to whoever operates it, and BYOK means the *ceiling* on
-generation quality is whatever frontier model key you're willing to plug in
-— not whatever the operator subsidizes. If you want the single most polished
-app-builder available today and don't care about self-hosting or
-subscription cost, the commercial tools currently win that comparison
-outright. See "Status" below for what's built and what isn't.
-
 Keel is licensed AGPL-3.0-or-later: if you run a modified version of Keel as a
 network service, you must make the source of your modified version available
 to your users (see `LICENSE`).
